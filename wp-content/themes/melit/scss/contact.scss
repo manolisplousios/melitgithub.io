@@ -1,0 +1,92 @@
+
+@import 'variables';
+
+.contact-background{
+    background-image: url("../images/hive-graphic-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.contact-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .list-heading,.fas,.fab{
+        color:$honey;
+    }
+
+    li{
+        list-style:none;
+    }
+
+    a{
+        color:white;
+    }
+
+    .map{
+        margin-top:10px;
+        // border:1px solid $honey;
+        width:100%;
+        height:auto;
+
+        iframe{
+            width:100%;
+        }
+    }
+}
+
+.mailform{
+    width:100%;
+
+    legend{
+        margin-bottom:30px;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .wpcf7{
+        width:60%;
+    }
+
+    label{
+        width:100%;
+        color:$honey;
+    }
+
+    input{
+        overflow:unset!important;
+        width:100%;
+    }
+
+    textarea{
+        width:100%;
+    }
+
+    legend{
+        font-size: 30px;
+        font-weight:bold;
+        text-align:center;
+        color:$honey;
+    }
+
+    .wpcf7-submit{
+        width:100px;
+        background-color:$honey;
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: inset 0 0 4px 0px black;
+        border:none;
+    }
+}
+
+.top-border{
+    border-top: 10px solid $honey;
+}
+
+.bottom-border{
+    border-bottom: 10px solid $honey;
+}

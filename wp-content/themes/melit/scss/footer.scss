@@ -1,0 +1,123 @@
+@import 'variables';
+
+.outfill{
+    padding:0px;
+
+    .searchfield-outer{
+        background-image: url("../images/honeycombdark.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width:100%;
+        height: auto;
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        margin:0px;
+        width:100%;
+
+        .searchfield-inner{
+            margin-top:80px;
+            margin-bottom:80px;
+            height:40%;
+            width:auto;
+            background-color:black;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: row;
+            border: 1px solid $honey;
+            box-shadow: 1px 1px 10px 3px black;
+            padding:20px;
+            @media only screen and (max-width: 800px) {
+                flex-direction: column;
+                height:40%;
+                margin-top:20px;
+                margin-bottom:20px;
+            }
+            .textfield{            
+                font-size: 2vw;
+                @media only screen and (max-width: 800px) {
+                    font-size: 6vw;
+                }
+                width:70%;
+                height:40%;
+                @media only screen and (max-width: 800px) {
+                    height:30px;
+                }
+                width:100%;
+            }
+            .searchbtn{
+                background-color:$honey;
+                border: none;
+                color: black;
+                padding: 8px 15px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 12px;
+                box-shadow: inset 0 0 4px 0px black;
+            }
+
+        }
+    }
+}
+
+.mainfooter{
+    background-color:black;
+    color:white;
+    font-size:16px;
+    width:100%;
+    margin:0px;
+    
+    .f-logo{
+        width:240px;
+        height:auto;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+
+    .fas,.list-heading,.fab{
+        color:$honey;
+    }
+
+    a{
+        color:white;
+    }
+
+}
+
+.lastline{
+    width:100%;
+    margin:0px;
+    background-color: black;
+    color:$honey;
+    padding:10px;
+    border-top:1px solid white;
+    a{
+        color:$honey;
+    }
+}
+
+.searchwp-live-search-result{
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.39);
+    }
+    
+    a{
+        color:black;
+        font-size:20px;        
+        &:hover{
+            color:$honey;
+            text-shadow: 1px 1px 1px black;
+            text-decoration: none;
+        }
+    }
+}

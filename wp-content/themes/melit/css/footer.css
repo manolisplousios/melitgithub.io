@@ -1,0 +1,95 @@
+.outfill {
+  padding: 0px; }
+  .outfill .searchfield-outer {
+    background-image: url("../images/honeycombdark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    width: 100%; }
+    .outfill .searchfield-outer .searchfield-inner {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      height: 40%;
+      width: auto;
+      background-color: black;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-direction: row;
+      border: 1px solid #f8c301;
+      box-shadow: 1px 1px 10px 3px black;
+      padding: 20px; }
+      @media only screen and (max-width: 800px) {
+        .outfill .searchfield-outer .searchfield-inner {
+          flex-direction: column;
+          height: 40%;
+          margin-top: 20px;
+          margin-bottom: 20px; } }
+      .outfill .searchfield-outer .searchfield-inner .textfield {
+        font-size: 2vw;
+        width: 70%;
+        height: 40%;
+        width: 100%; }
+        @media only screen and (max-width: 800px) {
+          .outfill .searchfield-outer .searchfield-inner .textfield {
+            font-size: 6vw; } }
+        @media only screen and (max-width: 800px) {
+          .outfill .searchfield-outer .searchfield-inner .textfield {
+            height: 30px; } }
+      .outfill .searchfield-outer .searchfield-inner .searchbtn {
+        background-color: #f8c301;
+        border: none;
+        color: black;
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        box-shadow: inset 0 0 4px 0px black; }
+
+.mainfooter {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  margin: 0px; }
+  .mainfooter .f-logo {
+    width: 240px;
+    height: auto; }
+  .mainfooter ul {
+    list-style-type: none; }
+  .mainfooter .fas, .mainfooter .list-heading, .mainfooter .fab {
+    color: #f8c301; }
+  .mainfooter a {
+    color: white; }
+
+.lastline {
+  width: 100%;
+  margin: 0px;
+  background-color: black;
+  color: #f8c301;
+  padding: 10px;
+  border-top: 1px solid white; }
+  .lastline a {
+    color: #f8c301; }
+
+.searchwp-live-search-result:hover {
+  background-color: rgba(0, 0, 0, 0.39); }
+
+.searchwp-live-search-result a {
+  color: black;
+  font-size: 20px; }
+  .searchwp-live-search-result a:hover {
+    color: #f8c301;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none; }
